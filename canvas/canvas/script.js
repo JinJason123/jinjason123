@@ -2,13 +2,13 @@ const canvas = document.getElementById('sceneCanvas');
 const ctx = canvas.getContext('2d');
 
 const background = new Image();
-background.src = 'images/red.jpg';
+background.src = './images/red.jpg';
 
 const foreground1 = new Image();
-foreground1.src = 'images/Porsche.jpg';
+foreground1.src = './images/Porsche.jpg';
 
 const foreground2 = new Image();
-foreground2.src = 'images/images.jpg';
+foreground2.src = './images/images.jpg';
 
 background.onload = function() {
     ctx.drawImage(background, 0, 0, canvas.width, canvas.height);
